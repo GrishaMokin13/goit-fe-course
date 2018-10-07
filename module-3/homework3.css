@@ -1,0 +1,33 @@
+.text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+.text1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+a:hover {
+    color:blue;
+}
+a{
+    text-decoration: none;
+    margin: 50px;
+}
+button{
+    color: black;
+    border-color: grey;
+    padding: 20px;   
+    background-color: white;
+}
+.text2{
+    font-family: 'Merriweather', serif;
+}
+.wrapper{
+  width: 1350px;
+}
+.card{
+    display: inline-block;
+    width: 500px;
+    margin: 40px;
+
+}
+
