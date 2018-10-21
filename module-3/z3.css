@@ -1,0 +1,49 @@
+*, *::after, *::before {
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+}
+
+.class li:nth-child(3n){
+    background: #88292F;
+}
+.class li:nth-child(3n+1){
+    background: #5DB7DE;
+}
+.class li:nth-child(3n+2){
+    background: #0D5D56;
+}
+
+.no-dot {
+    padding: 0;
+}
+
+.no-dot li {
+    list-style-type: none;
+}
+
+.no-dot li::before {
+    content: "\2192";
+    margin-right: 5px;
+}
+.rf ol{
+    counter-reset: rf;
+}
+.li{
+    counter-increment: rf;
+    list-style-type: none;
+    margin: 10px;
+}
+.li:before {
+    display: inline-block;
+    content: counter(rf,upper-roman)" ";
+    width: 25px;
+    height: 25px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+

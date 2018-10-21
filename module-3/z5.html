@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wraper {
+            height: 400px;
+            width: 400px;
+            background-color: #424242;
+        }
+
+        .sqr {
+            width: 100px;
+            height: 100px;
+        }
+
+        .sqr:nth-child(1) {
+            background-color: blue;
+            position: absolute;
+        }
+
+        .sqr:nth-child(2) {
+            background-color: red;
+            position: absolute;
+            left: 150px;
+        }
+
+        .sqr:nth-child(3) {
+            background-color: yellowgreen;
+            position: absolute;
+            left: 300px;
+        }
+
+        .sqr:nth-child(4) {
+            background-color: green;
+            position: absolute;
+            top: 150px;
+        }
+
+        .sqr:nth-child(5) {
+            background-color: aqua;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+
+        .sqr:nth-child(6) {
+            background-color: firebrick;
+            position: absolute;
+            left: 300px;
+            top: 150px;
+        }
+
+        .sqr:nth-child(7) {
+            background-color: peachpuff;
+            position: absolute;
+            top: 300px;
+        }
+
+        .sqr:nth-child(8) {
+            background-color: magenta;
+            position: absolute;
+            top: 300px;
+            left: 150px;
+        }
+
+        .sqr:nth-child(9) {
+            background-color: olive;
+            position: absolute;
+            top: 300px;
+            left: 300px;
+        }
+
+        .wrap {
+            width: 100%;
+            height: 600px;
+            background: aqua;
+            margin-top: 50px;
+        }
+
+        .sub {
+            display: none;
+            position: absolute;
+        }
+
+        .men {
+            position: relative;
+            display: inline-block;
+            padding: 30px;
+        }
+
+        .men:hover .sub {
+            display: block;
+        }
+
+        ul {
+            text-decoration: none;
+        }
+
+        li {
+            text-decoration: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+        <div class="sqr"></div>
+    </div>
+    <div class="wrap">
+        <ul>
+            <li class="men">MENU<ul class="sub">
+                    <li>sub</li>
+                    <li>sub</li>
+                    <li>sub</li>
+                </ul>
+            </li>
+
+            <li class="men">MENU<ul class="sub">
+                    <li>sub</li>
+                    <li>sub</li>
+                    <li>sub</li>
+                </ul>
+            </li>
+
+            <li class="men">MENU<ul class="sub">
+                    <li>sub</li>
+                    <li>sub</li>
+                    <li>sub</li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <div class="z3">
+        <img src="https://uproxx.files.wordpress.com/2017/05/pennywise-clown-it.jpg?quality=100&w=650" alt="">
+    </div>
+</body>
+
+</html>

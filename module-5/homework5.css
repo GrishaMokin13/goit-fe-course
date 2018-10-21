@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1600px;
+}
+
+span {
+    color: rgb(26, 188, 156);
+    font-weight: 700;
+}
+
+.m {
+    font-size: 21px;
+    margin-left: 200px;
+    display: inline;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+}
+
+.right {
+    margin-left: 566px;
+}
+
+a:hover {
+    color: rgba(26, 188, 156, 255);
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wr {
+    width: 1600px;
+    
+}
+
+.tour {
+    margin-top: 30px;
+    height: 600px;
+    width: 1600px;
+    background: url(img/paris.jpg);
+    background-position: center;
+
+}
+
+.op {
+    background: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    width: 1600px;
+    z-index: 1;
+}
+
+.green {
+    width: 104px;
+    height: 104px;
+    background-color: rgba(26, 188, 156, 0.5);
+    border: none;
+}
+
+.green:hover {
+    background-color: rgba(26, 188, 156, 1);
+}
+
+.tr {
+    font-size: 38px;
+    color: #fff;
+}
+
+.paris {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.tick {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.green:nth-child(1){
+    margin-left: 241.5px;
+}
+h1:after {
+    content: "";
+    width: 164px;
+    height: 7px;
+    background: rgba(26, 188, 156, 255);
+    position: absolute;
+    bottom: -180px;
+    left: 44%;
+    
+  }
+  .description{
+      background-color: #e9f0fd;
+      height: 676px;
+  }
+  h1{
+      padding-top: 101px;
+      text-align: center;
+  }
+.butt{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border: solid 1px white;
+}
+.img{
+    width: 250px;
+    height: 276px;
+    background-color: rgba(0,0,0,0.5);
+}
+.butt2{
+    width: 166px;
+    height: 50px;
+    background-color: #323232;
+    border: none;
+    border: solid 1px white;
+    color: #fff;
+}
+    .butt2:hover{
+    background-color: #1abc9c;
+}
+ .butt:hover{
+  background-color:#1abc9c ;
+ }   
+
