@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 1600px;
+    width: 100%;
 }
 
 span {
@@ -30,7 +30,7 @@ a {
 }
 
 .right {
-    margin-left: 566px;
+    margin-left: 37%;
 }
 
 a:hover {
@@ -42,14 +42,14 @@ a:hover {
 }
 
 .wr {
-    width: 1600px;
+    width: 100%;
 
 }
 
 .tour {
     margin-top: 30px;
     height: 600px;
-    width: 1600px;
+    width: 100%;
     background: url(img/paris.jpg);
     background-position: center;
     position: relative;
@@ -59,7 +59,7 @@ a:hover {
 .op {
     background: rgba(0, 0, 0, 0.5);
     height: 600px;
-    width: 1600px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -72,12 +72,12 @@ a:hover {
 }
 
 .green:nth-child(1) {
-    left: 240px;
+    left: 18%;
     top: 240px;
 }
 
 .green:nth-child(2) {
-    right: 240px;
+    right: 18%;
     top: 240px;
 }
 
@@ -92,23 +92,23 @@ a:hover {
 
 .paris {
     color: #fff;
-    font-size: 50px;
+    font-size: 47px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     position: absolute;
-    top: 240px;
-    left: 350px;
+    top: 230px;
+    left: 380px;
 
 }
 
 .tick {
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 20px;
     position: absolute;
     top: 300px;
-    left: 350px;
+    left: 380px;
 }
 
 h1:after {
@@ -117,13 +117,13 @@ h1:after {
     height: 7px;
     background: rgba(26, 188, 156, 255);
     position: absolute;
-    bottom: -180px;
+    display: block;
     left: 44%;
-
+    bottom: -32px;
 }
 
 .description {
-    background-color: #0040b6;
+    background-color: #e9f0fd;
     height: 676px;
 }
 
@@ -140,13 +140,6 @@ h1 {
     border: solid 1px white;
 }
 
-.img {
-    position: relative;
-    width: 327px;
-    height: 323px;
-
-}
-
 .butt2 {
     width: 166px;
     height: 50px;
@@ -158,10 +151,12 @@ h1 {
 
 .butt2:hover {
     background-color: #1abc9c;
+    border-color: #1abc9c;
 }
 
 .butt:hover {
     background-color: #1abc9c;
+    border-color: #1abc9c;
 }
 
 .butt .butt2 {
@@ -174,14 +169,143 @@ h1 {
 }
 
 .div {
-    width: 317px;
-    height: 313px;
+    width: 245px;
+    height: 278px;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 5px;
     right: 5px;
     display: none;
 }
-.img:hover > .div{
+
+.card:hover .div {
     display: block;
+}
+
+.card {
+    width: 255px;
+    height: 322px;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.img {
+    width: 255px;
+    height: 288px;
+    background-position: top;
+    display: inline-block;
+    float: left;
+    position: absolute;
+}
+
+.img1 {
+    background-image: url(img/category-2@1X.png);
+}
+
+.img2 {
+    background-image: url(img/category-1@1X.png);
+}
+
+.img3 {
+    background-image: url(img/category-4@1X.png);
+}
+
+.img4 {
+    background-image: url(img/category-3@1X.png);
+}
+
+.des {
+    height: 40px;
+    width: 201px;
+    background-color: #323232;
+    display: inline-block;
+    float: left;
+    position: absolute;
+}
+
+.price {
+    height: 40px;
+    width: 54px;
+    background-color: #8c8c8c;
+    display: inline-block;
+    position: absolute;
+    left: 201px;
+}
+
+.description h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #515151;
+    font-size: 40px;
+    position: relative;
+}
+.left{
+    margin-left: 120px;
+}
+.name{
+    position: relative;
+    top: 288px;
+}
+.price p, .des p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+
+}
+.price p{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.des p{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+.butt:nth-child(3n+1){
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 27%;
+    top: 40%;
+}
+.butt:nth-child(3n+2){
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+
+}
+.butt:nth-child(3n){
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 73%;
+    top: 40%;
+}
+.butt2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 60%;
+}
+.butt2 p{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 60%;
+    top: 50%;
+    font-size: 10px;
+}
+.butt2 img{
+    position: absolute;
+    left: 17%;
+    transform: translate(-50%,-50%);
+}
+.img:hover .name .price{
+    color: #7fd9c7;
+}
+.img:hover .name .des{
+    color:#1abc9c;
 }

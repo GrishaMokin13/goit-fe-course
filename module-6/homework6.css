@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mogo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #95e1d3;
+    font-weight: 700;
+    margin-left: 19.5%;
+    display: inline;
+}
+.a{
+    display: inline;
+}
+.a a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-left: 3%;
+}
+.a a:nth-child(1){
+    margin-left: 35%;
+}
+.a a:hover{
+    color: #f38181;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f38181;}
+.kaushan{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 110px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 12px;
+    position: relative;
+}
+div:empty{
+    height: 3px;
+    width: 60px;
+    background: #f38181;
+    position: absolute;
+    right: 48%;
+    margin-top: 30px;
+}
