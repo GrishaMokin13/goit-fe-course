@@ -303,9 +303,9 @@ font-weight: 700;
     left: 17%;
     transform: translate(-50%,-50%);
 }
-.img:hover .name .price{
-    color: #7fd9c7;
+.card:hover .name .price{
+    background-color: #7fd9c7;
 }
-.img:hover .name .des{
-    color:#1abc9c;
+.card:hover .name .des{
+    background-color:#1abc9c;
 }

@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.mogo{
+
+.mogo {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #95e1d3;
@@ -11,40 +12,78 @@
     margin-left: 19.5%;
     display: inline;
 }
-.a{
+
+.a {
     display: inline;
 }
-.a a{
+
+.a a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     margin-left: 3%;
 }
-.a a:nth-child(1){
+
+.a a:nth-child(1) {
     margin-left: 35%;
 }
-.a a:hover{
+
+.a a:hover {
     color: #f38181;
     padding-bottom: 5px;
-    border-bottom: 2px solid #f38181;}
-.kaushan{
+    border-bottom: 2px solid #f38181;
+}
+
+.kaushan {
     font-family: 'Kaushan Script', cursive;
     font-size: 20px;
     text-align: center;
     margin-top: 110px;
 }
-h1{
+
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 23px;
     text-align: center;
     margin-top: 12px;
     position: relative;
 }
-div:empty{
+
+div:empty {
     height: 3px;
     width: 60px;
     background: #f38181;
     position: absolute;
     right: 48%;
     margin-top: 30px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 13%;
+}
+
+.div {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 80px;
+}
+
+.ok {
+    margin-left: 50px;
+}
+
+.div h1 {
+    color: #333333;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+.div p{
+    color: #a8a8a8;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
