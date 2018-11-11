@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <style>
+        table {
+            border-collapse: collapse;
+            font-size: 20px;
+            font-family:'Roboto', sans-serif;
+            margin: auto;
+            font-weight: 300;
+        }
+        th{
+            border: 1px solid grey;
+            padding: 5px;
+        }
+        tr:nth-child(1){
+            background: grey;
+            color: white;
+        }
+        th:nth-child(3n+1){
+            text-transform: uppercase;
+        }
+        div input{
+            display: flex;
+        }
+        div{
+            display: flex;
+            align-content: center;
+            
+        }
+        input:nth-child(1){
+            height: 30px;
+            width: 335px;
+        }
+        input:nth-child(2){
+            height: 30px;
+            width: 335px;
+        }
+        textarea, input{
+           border: 1px solid black;
+           margin-bottom: 25px;
+        }
+        .sub{
+            padding: 10px;
+            background-color: red;
+            border:none;
+            margin-right: 100px;
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <caption>Услуги барбершопа "Branch"</caption>
+            <tr>
+                <th>Услуга</th>
+                <th>Стоимость</th>
+                <th>Сроки</th>
+            </tr>
+            <tr>
+                <th>Мужская стрижка</th>
+                <th>250грн</th>
+                <th>1 час</th>
+            </tr>
+            <tr>
+                <th>Женская стрижка</th>
+                <th>350грн</th>
+                <th>2 часа </th>
+            </tr>
+            <tr>
+                <th>стрижка + борода</th>
+                <th>350грн</th>
+                <th>1.5 час</th>
+            </tr>
+            <tr>
+                <th>корекция стрижки</th>
+                <th>170грн</th>
+                <th>1 час</th>
+            </tr>
+            <tr>
+                <th>стрижка бороди</th>
+                <th>150грн</th>
+                <th>1 час</th>
+            </tr>
+            <tr>
+                <th>черная маска</th>
+                <th>150грн</th>
+                <th>0.5 часа</th>
+            </tr>
+        </tbody>
+    </table>
+    <h2>2</h2>
+    <div>
+        <form action="#" method="get">
+            <input type="text" name="name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your EMAIL">
+            <textarea name = "comments" rows="10" cols="45" placeholder="Your Massage"></textarea>
+        </textarea>
+            <input class="sub" type="submit" value="SEND">
+        </form>
+    </div>
+</body>
+
+</html>

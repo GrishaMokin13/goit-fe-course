@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            background: yellow;
+            height: 30px;
+        }
+
+        .content {
+            display: flex;
+            height: 100px;
+            justify-content: space-between;
+        }
+
+        .div {
+            width: 54%;
+            background: red;
+        }
+
+        .div2,
+        .div1 {
+            width: 21%;
+        }
+
+        .div1 {
+            background: green;
+
+        }
+
+        .div2 {
+            background: orange;
+        }
+
+        footer {
+            width: 100%;
+            background: blue;
+            height: 30px;
+        }
+
+        .first {
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+
+        .cont {
+            background: rgb(255, 255, 88);
+        }
+
+        .side {
+            background: lightgreen;
+        }
+
+        .task2 {
+            height: 150px;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 50px;
+        }
+
+        @media (min-width: 480px) {
+            .task2 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .cont {
+                height: 50%;
+            }
+
+            .side {
+                height: 50%;
+            }
+
+            .colors {
+                display: flex;
+                flex-direction: column;
+                height: 60%;
+                width: 100%;
+            }
+
+            .green {
+                background: green;
+                height: 50%;
+            }
+
+            .blue {
+                background: blue;
+                height: 50%;
+            }
+            .red {
+            height: 40%;
+            background: red;
+            width: 100%;
+        }
+        }
+
+        @media (min-width: 768px) {
+            .task2 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .cont {
+                width: 75%;
+            }
+
+            .side {
+                width: 25%;
+            }
+
+            .colors {
+                display: flex;
+                flex-direction: row;
+                height: 60%;
+                width: 100%;
+            }
+
+            .green {
+                background: green;
+                width: 50%;
+                height: 100%;
+            }
+
+            .blue {
+                background: blue;
+                width: 50%;
+                height: 100%;
+            }
+            .red {
+            height: 40%;
+            background: red;
+            width: 100%;
+        }
+        }
+
+        .task3 {
+            display: flex;
+            flex-direction: column;
+            width: 150px;
+            height: 200px;
+            margin: auto;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="first">
+        <header>
+
+        </header>
+        <div class="content">
+            <div class="div"></div>
+            <div class="div1"></div>
+            <div class="div2"></div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <div class="task2">
+        <div class="cont"></div>
+        <div class="side"></div>
+
+    </div>
+    <div class="task3">
+        <div class="red">
+        </div>
+        <div class="colors">
+            <div class="green"></div>
+            <div class="blue"></div>
+        </div>
+    </div>
+</body>
+
+</html>
