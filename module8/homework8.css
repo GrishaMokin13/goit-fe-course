@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) ,url(img/Vector\ Smart\ Object@1X.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+header button{
+    color: white;
+}
+button{
+    border: none;
+}
+.signup button{
+background: rgba(255,255,255,0);
+border: 2px solid white;
+font-size: 14px;
+padding: 5px;
+border-radius: 20px;
+}
+
+.name,
+button,
+h1,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+.login button{
+    background: rgba(0,0,0,0);
+}
+
+@media (min-width: 320px) {
+    .logo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .butts{
+        display: flex;
+        font-size: 14px;
+    }
+    .butt button{
+        background: #ff4e50;
+        width: 280px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 542px;
+    }
+    .logo .butts{
+        margin-top: 20px;
+
+    }
+    .login{
+        margin-top: 8px;
+        
+    }
+    .signup{
+        
+    }
+}
+@media (min-width: 768px) {
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1440px) {
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+}
