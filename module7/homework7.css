@@ -5,34 +5,68 @@
 }
 
 /* oleo-script-regular - latin */
-    @font-face {
-        font-family: 'Oleo Script';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Oleo Script'), local('OleoScript-Regular'),
-            url('fonts/oleo-script-v6-latin-regular.woff2') format('woff2'),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */
-            url('fonts/fonts/oleo-script-v6-latin-regular.woff') format('woff');
-        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'),
+        url('fonts/oleo-script-v6-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/fonts/oleo-script-v6-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
-    /* montserrat-regular - latin */
-    @font-face {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Montserrat Regular'), local('Montserrat-Regular'),
-            url('fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
-            /* Chrome 26+, Opera 23+, Firefox 39+ */
-            url('fonts/montserrat-v12-latin-regular.woff') format('woff');
-        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/montserrat-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/montserrat-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: bold;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/montserrat-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/montserrat-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 
 /* roboto-regular - latin */
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400,900;
+    font-weight: 400, 900;
     src: local('Roboto'), local('Roboto-Regular'),
         url('fonts/roboto-v18-latin-regular.woff2') format('woff2'),
         /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -51,10 +85,33 @@
         url('fonts/domine-v5-latin-regular.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 @font-face {
     font-family: 'Domine';
-    font-style: italic, oblique;
+    font-style: normal;
     font-weight: 400;
+    src: local('Domine'), local('Domine-Regular'),
+        url('fonts/domine-v5-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/domine-v5-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Domine'), local('Domine-Regular'),
+        url('fonts/domine-v5-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/domine-v5-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Domine';
+    font-style: italic;
+    font-weight: bold;
     src: local('Domine'), local('Domine-Regular'),
         url('fonts/domine-v5-latin-regular.woff2') format('woff2'),
         /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -80,15 +137,16 @@ a:hover {
 
 .text h1 {
     font-size: 40px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: bold;
+
 }
 
 .grey {
     color: #989898;
     font-size: 15px;
     font-family: 'Domine';
-font-style: italic;
+    font-style: italic;
 }
 
 .img {
@@ -185,7 +243,7 @@ textarea {
 .text1 h1 {
     font-size: 40px;
     color: #fff;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: bold;
 }
 
@@ -275,19 +333,33 @@ textarea {
 input {
     border: none;
 }
-.web{
+
+.web {
     font-family: 'Roboto';
     font-weight: bold;
 }
-.eve::placeholder{
+
+.eve::placeholder {
     font-size: 10px;
     font-family: 'roboto';
 }
-input:valid{
+
+input:valid {
     outline-color: green;
     outline-width: 5px;
 }
-input:invalid{
+
+input:invalid {
     outline-color: red;
     outline-width: 5px;
+}
+
+.end {
+    position: relative;
+}
+
+.end::placeholder {
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
