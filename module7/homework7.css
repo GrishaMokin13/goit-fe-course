@@ -118,6 +118,9 @@
         url('fonts/domine-v5-latin-regular.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+header{
+    margin-top: 45px;
+}
 
 .logo p {
     font-family: 'Oleo script', sans-serif;
@@ -346,12 +349,10 @@ input {
 
 input:valid {
     outline-color: green;
-    outline-width: 5px;
 }
 
 input:invalid {
     outline-color: red;
-    outline-width: 5px;
 }
 
 .end {
