@@ -86,39 +86,8 @@
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-@font-face {
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Domine'), local('Domine-Regular'),
-        url('fonts/domine-v5-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/domine-v5-latin-regular.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
 
-@font-face {
-    font-family: 'Domine';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Domine'), local('Domine-Regular'),
-        url('fonts/domine-v5-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/domine-v5-latin-regular.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-@font-face {
-    font-family: 'Domine';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Domine'), local('Domine-Regular'),
-        url('fonts/domine-v5-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/domine-v5-latin-regular.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-header{
+header {
     margin-top: 45px;
 }
 
@@ -128,10 +97,16 @@ header{
     color: #fed44c;
 }
 
-.services a {
-    font-size: 10px;
+.services p a {
+    font-size: 14px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+.services {
+    margin-top: 16px;
 }
 
 a:hover {
@@ -140,7 +115,7 @@ a:hover {
 
 .text h1 {
     font-size: 40px;
-    font-family: 'Montserrat';
+    font: 'Roboto';
     font-weight: bold;
 
 }
@@ -148,7 +123,7 @@ a:hover {
 .grey {
     color: #989898;
     font-size: 15px;
-    font-family: 'Domine';
+    font: 'Domine';
     font-style: italic;
 }
 
@@ -246,14 +221,14 @@ textarea {
 .text1 h1 {
     font-size: 40px;
     color: #fff;
-    font-family: 'Montserrat';
+    font: 'Roboto';
     font-weight: bold;
 }
 
 .text1 p {
     font-size: 16px;
     color: #777777;
-    font-family: 'Domine';
+    font: 'Domine';
     font-style: italic;
 }
 
@@ -265,7 +240,7 @@ textarea {
     color: #fff;
     font-size: 14px;
     border-radius: 5px;
-    font-family: 'Roboto';
+    font: 'Roboto';
     font-weight: bold;
 }
 
@@ -338,13 +313,13 @@ input {
 }
 
 .web {
-    font-family: 'Roboto';
+    font: 'Roboto';
     font-weight: bold;
 }
 
 .eve::placeholder {
     font-size: 10px;
-    font-family: 'roboto';
+    font: 'Roboto';
 }
 
 input:valid {
@@ -363,4 +338,22 @@ input:invalid {
     position: absolute;
     left: 20px;
     top: 20px;
+}
+
+input::placeholder {
+    margin: 20px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: bold;
+    font: 'Montserrat';
+    color: #bbbbbb;
+}
+
+textarea::placeholder {
+    font-size: 17px;
+    font-weight: bold;
+    font: 'Montserrat';
+    color: #bbbbbb;
 }
