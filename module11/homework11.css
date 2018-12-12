@@ -53,11 +53,6 @@ header {
     margin-bottom: 125px;
 }
 
-.eagle_button {
-    transform: translate(-50%, -50%);
-    margin-left: 50%;
-}
-
 .eagle_links_link {
     font-size: 14px;
     color: white;
@@ -68,6 +63,8 @@ header {
 }
 
 .eagle_button {
+    transform: translate(-50%, -50%);
+    margin-left: 50%;
     border: 2px white solid;
     padding: 14px 33px;
     font-size: 14px;
@@ -85,6 +82,13 @@ header {
     fill: #fce38a;
 }
 
+.item_title {
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container_titles_title1 {
     font-size: 24px;
     font-family: 'Kaushan Script', cursive;
@@ -96,12 +100,7 @@ header {
     font-weight: bold;
 }
 
-.item_title {
-    font-size: 14px;
-    color: #333333;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 .item_text {
     font-family: 'Roboto', sans-serif;
