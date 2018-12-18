@@ -6,11 +6,12 @@ header {
     background-position: center;
 
 }
+
 @media (-webkit-min-device-pixel-ratio: 2) {
     header {
-      background: url(img/Layer\ 15@2X.png) no-repeat;
+        background: url(img/Layer\ 15@2X.png) no-repeat;
     }
-  }
+}
 
 .eagle_top {
     display: flex;
@@ -140,19 +141,22 @@ header {
     float: left;
     margin-right: 30px;
 }
-.cards_titles_title1{
+
+.cards_titles_title1 {
     font-size: 24px;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     margin-top: 92px;
 }
-.cards_titles_title2{
+
+.cards_titles_title2 {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
 }
+
 .cards_titles_title2::after {
     display: block;
     height: 3px;
@@ -163,7 +167,8 @@ header {
     margin-left: 50%;
     margin-top: 30px;
 }
-.cards_titles_text{
+
+.cards_titles_text {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -172,6 +177,7 @@ header {
     color: #999999;
     margin-top: 46px;
 }
+
 .people_card {
     margin: 20px;
     width: 380px;
@@ -190,7 +196,7 @@ header {
     display: none;
     align-items: center;
     top: 0;
-    
+
 }
 
 .people_card:hover {
@@ -201,90 +207,111 @@ header {
 
 .people_card:hover .people_card_overlay {
     display: flex;
-    background: linear-gradient(to bottom, rgb(255, 0, 0 , 0.6), rgba(255,255,0,0.6));
+    background: linear-gradient(to bottom, rgb(255, 0, 0, 0.6), rgba(255, 255, 0, 0.6));
     transition: all 0.2s ease-in;
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.people_card:hover .overlay_btn{
+
+.people_card:hover .overlay_btn {
     display: block;
     opacity: 1;
     transition: all 0.2s ease-in;
 }
-.people_card img{
+
+.people_card img {
     width: 380px;
     height: 470px;
 }
-.eagle_links_svg--hover{
-margin: 10px;
+
+.eagle_links_svg--hover {
+    margin: 10px;
 }
-.eagle_links_svg--hover:hover{
-fill: #fce38a;
+
+.eagle_links_svg--hover:hover {
+    fill: #fce38a;
 }
-.people_card_overlay_btns{
-    
-}
-.btns_btn{
+
+.people_card_overlay_btns {}
+
+.btns_btn {
     width: 56px;
     height: 56px;
     display: flex;
     background-color: #fce38a;
-    border: 1px solid #f38181; 
+    border: 1px solid #f38181;
     align-items: center;
     justify-content: center;
 }
-.btns_btn img{
+
+.btns_btn img {
     height: 30px;
     width: auto;
+    color: none;
 }
-.btns_btn--hover:hover{
-background-color: #f38181;
+
+.btns_btn img:hover {
+    color: #fce38a;
 }
-.btns_btn--hover:hover{
+
+.btns_btn--hover:hover {
+    background-color: #f38181;
+}
+
+.btns_btn--hover:hover {
     fill: #ffffff;
 }
-.people{
+
+.people {
     display: flex;
     justify-content: space-evenly;
     margin-top: 90px;
 }
-.descriptions{
+
+.descriptions {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.descriptions_description{
+
+.descriptions_description {
     text-align: center;
 }
-.description_name{
-font-size: 14px;
-font-family: 'Montserrat', sans-serif;
+
+.description_name {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
-.description_job{
+
+.description_job {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-style: italic;
     font-weight: lighter;
     color: #333333;
 }
-.eagle_links_svg{
+
+.eagle_links_svg {
     margin-left: 10px;
 }
-.line{
+
+.line {
     height: 1px;
     width: 1200px;
     background: #999999;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     margin-left: 50%;
     margin-top: 80px;
 }
-.inputs_mail{
+
+.inputs_mail {
     width: 230px;
     height: 34px;
     float: left;
 }
-.inputs_submit{
+
+.inputs_submit {
     width: 150px;
     height: 40px;
     background: #95e1d3;
@@ -294,23 +321,27 @@ font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-.inputs_mail::placeholder{
+
+.inputs_mail::placeholder {
     font-style: italic;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
 }
-.footer_logo{
+
+.footer_logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-.red{
+
+.red {
     color: lightcoral;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
     width: 1200px;
-transform: translate(-50%,-50%);
-margin-left: 50%;
-margin-top: 30px;
+    transform: translate(-50%, -50%);
+    margin-left: 50%;
+    margin-top: 30px;
 }
