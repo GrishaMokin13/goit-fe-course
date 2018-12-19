@@ -301,8 +301,8 @@ header {
 }
 
 .btns_btn:hover img{
-    -webkit-filter: hue-rotate(46.84deg) brightness(2.1);
-            filter: hue-rotate(46.84deg) brightness(2.1);
+    -webkit-filter:brightness(10);
+            filter:brightness(10);
 }
 
 .btns_btn--hover:hover {
