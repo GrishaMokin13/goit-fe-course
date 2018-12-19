@@ -251,8 +251,9 @@ header {
     background-color: #f38181;
 }
 
-.btns_btn--hover:hover img {
-    fill: #ffffff;
+.btns_btn:hover img {
+    -webkit-filter: brightness(10);
+    filter: brightness(10);
 }
 
 .people {
