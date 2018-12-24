@@ -12,184 +12,231 @@ header {
     color: rgb(255, 255, 255);
 }
 
-header button {
-    color: white;
+.logo {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-button {
+.name {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login button,
+.signup button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.butts button {
+    background: rgba(255, 255, 255, 0);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     border: none;
 }
 
+.butts {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 115px;
+    justify-content: center;
+}
+
 .signup button {
-    background: rgba(255, 255, 255, 0);
-    border: 2px solid white;
-    font-size: 14px;
-    padding: 5px;
-    border-radius: 20px;
-}
-
-.name,
-button,
-h1,
-h5,
-h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
-
-p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 12px 18px 10px 19px;
+    margin-top: 21px;
+    margin-left: 10px;
 }
 
 .login button {
-    background: rgba(0, 0, 0, 0);
+    margin-top: 33px;
+    margin-right: 10px;
+}
+
+.middle h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.middle p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top: 19px;
+}
+
+.butt button {
+    background: #ff4e50;
+    border: none;
+    padding: 0 32px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transform: translate(-50%, 0);
+    margin-left: 50%;
+    margin-top: 33px;
+    margin-bottom: 139px;
+    width: 280px;
+    height: 40px;
 }
 
 footer h3 {
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
-    color: #333333;
+    color: rgb(51, 51, 51);
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 258px;
+}
+
+.big {
+    position: relative;
+    margin-bottom: 20px;
+    width: 122px;
+    height: 122px;
+}
+
+.big img {
+    border-radius: 50%;
+}
+
+.big::after {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: 71%;
+    top: 71%;
+}
+
+.big1::after {
+    content: "";
+    background: url(img/Shape\ 128@1X.png) 50% 50% no-repeat, #ff4e50;
+}
+
+.big2::after {
+    content: "";
+    background: url(img/Shape\ 155@1X.png) 50% 50% no-repeat, #ffa507;
+}
+
+.big3::after {
+    content: "";
+    background: url(img/Shape\ 153@1X.png) 50% 50% no-repeat, #1cd7ad;
+}
+
+.big4::after {
+    content: "";
+    background: url(img/Shape\ 170@1X.png) 50% 50% no-repeat, #4e73db;
 }
 
 .down {
-    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+    max-width: 470px;
+    margin: 0 auto;
 }
-.people img{
-    border-radius: 50%;
-}
-footer{
+
+.people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
 
-@media (min-width: 320px) {
+.people h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.people p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 28px;
+}
+
+.untop {
+    width: 280px;
+    height: 40px;
+    border: 3px solid #ff4e50;
+    background: transparent;
+    border-radius: 20px;
+    transform: translate(-50%, 0);
+    margin-left: 50%;
+    color: #ff4e50;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+@media(min-width:768px) {
     .logo {
-        display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .name {
-        font-size: 20px;
+        margin-top: 46px;
     }
 
-    .butts {
-        display: flex;
-        font-size: 14px;
+    .signup button {
+        margin-top: 34px;
     }
 
-    .butt button {
-        background: #ff4e50;
-        width: 280px;
-        height: 40px;
-        border: none;
-        border-radius: 20px;
-    }
-
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: 542px;
-    }
-
-    .middle {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-    }
-
-    .logo .butts {
-        margin-top: 20px;
-
-    }
-
-    .login {
-        margin-top: 8px;
-        margin-left: 18%;
-        margin-right: 10%;
-
-    }
-
-    .name {
-        margin-top: 140px;
+    .login button {
+        margin-top: 46px;
     }
 
     .middle h1 {
-        margin-top: 30px;
+        font-size: 52px;
     }
 
     .middle p {
-        margin-top: 20px;
-    }
-
-    .butt {
-        margin-top: 20px;
-    }
-
-    footer h5 {
-        font-weight: 22px;
+        font-size: 24px;
     }
 
     .down {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 14px;
-    }
-
-    .people h6 {
-        font-weight: bold;
-        font-size: 14px;
-        color: #333333;
-    }
-    .people img{
-        margin-top: 15px;
-    }
-    .people h6{
-        
-    }
-    .people p{
-        color: #333333;
-        font-size: 14px;
-        margin-top: 15px;
-    }
-    .untop{
-        border: 2px solid #ff4e50;
-        width: 280px;
-        background: transparent;
-        height: 40px;
-        border: none;
-        border-radius: 20px;
-        text-align: center;
-        color: #ff4e50;
-    }
-    h3{
-        margin-top: 70px;
-    }
-
-}
-
-
-@media (min-width: 768px) {
-    .logo {
-        display: flex;
         flex-direction: row;
-    
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-top: 30px;
     }
-    .name{
-        
+
+    .butt button{
+        margin-bottom: 234px;
+    }
+
+    footer h3 {
+        max-width: 401px;
     }
 }
-
-@media (min-width: 1440px) {
-    .logo {
-        display: flex;
-        flex-direction: column;
+@media(min-width:1024px){
+    .down{
+        max-width: 914px;
     }
 }
