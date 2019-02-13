@@ -14,4 +14,3 @@ while (checker !== null);
 for (let i of numbers) {
     total = total + i;
 }
-alert(`Общая сумма чисел равна ${total}`);
