@@ -1,7 +1,7 @@
 let logins = [];
 let login;
 function isLoginValid (login){
-if ((login.split("").length)>3 && (login.split("").length)<17){
+if ((login.length)>3 && (login.length)<17){
 return true;}
 else{
     return false;
@@ -32,5 +32,5 @@ function addLogin(allLogins, login){
     }
 
 }
-while(true){
+while(login !== null){
 addLogin(logins,login);}
