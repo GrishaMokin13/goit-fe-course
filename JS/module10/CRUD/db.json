@@ -1,0 +1,22 @@
+{
+    "students": [
+      {
+        "first_name": "Anton",
+        "last_name": "Muzyka",
+        "homework": 5,
+        "id": 1
+      },
+      {
+        "first_name": "Dan",
+        "last_name": "Palmer",
+        "homework": 5,
+        "id": 2
+      },
+      {
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "homework": 7,
+        "id": 3
+      }
+    ]
+  }

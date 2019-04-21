@@ -33,42 +33,59 @@
 //         this.isDrive = false;
 //     }
 // }
-class Car {
-    constructor( {maxSpeed = 0 }) {
-    this.speed = 0;
-    this.running = false;
-    this.distance = 0;
-    this.maxSpeed = maxSpeed;
-    }
-    turnOn() {
-       this.running = true;
-    }
-    turnOff() {
-       this.running = false;
-    }
-    accelerate(spd) {
-        if(0 <= spd && spd <= this.maxSpeed){
-        this.speed = spd;}
-    }
-    decelerate(spd) {
-       if(0 <= spd && spd <= this.maxSpeed){
-         this.speed = spd;
-       }
-    }
-    drive(hours) {
-        if(this.running){
-     this.distance = hours * this.speed;}
-    }
-    getSpecs(car){
-        console.log(this.maxSpeed);
-        console.log(this.speed);
-        console.log(this.running);
-        console.log(this.distance);
-    }
-}
-const car = new Car({ maxSpeed: 100 });
+// class Car {
+//     constructor( {maxSpeed = 0 }) {
+//     this.speed = 0;
+//     this.running = false;
+//     this.distance = 0;
+//     this.maxSpeed = maxSpeed;
+//     }
+//     turnOn() {
+//        this.running = true;
+//     }
+//     turnOff() {
+//        this.running = false;
+//     }
+//     accelerate(spd) {
+//         if(0 <= spd && spd <= this.maxSpeed){
+//         this.speed = spd;}
+//     }
+//     decelerate(spd) {
+//        if(0 <= spd && spd <= this.maxSpeed){
+//          this.speed = spd;
+//        }
+//     }
+//     drive(hours) {
+//         if(this.running){
+//      this.distance = hours * this.speed;}
+//     }
+//     getSpecs(car){
+//         console.log(this.maxSpeed);
+//         console.log(this.speed);
+//         console.log(this.running);
+//         console.log(this.distance);
+//     }
+// }
+// const car = new Car({ maxSpeed: 100 });
 
-car.turnOn();
-car.drive(2);
-car.getSpecs(car);
-console.log(car);
+// car.turnOn();
+// car.drive(2);
+// car.getSpecs(car);
+// console.log(car);
+const elements = ['HTML', 'CSS', 'JavaScript', 'React', 'Node'];
+const list = document.querySelector('.list')
+const fuf = arr =>{
+    const items = [];
+    arr.map(el => {
+        let lis = document.createElement('li');
+        lis.textContent = el;
+        items.push(lis);
+    })
+    return list.append(...items)
+}
+fuf(elements);
+let sm = list.firstElementChild();
+console.log(sm);
+
+// sm.style.color = 'red';
+// console.log(fuf(elements));
