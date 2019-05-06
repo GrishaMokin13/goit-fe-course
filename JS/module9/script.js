@@ -20,50 +20,50 @@
 //     bool = false;
 // }
 // start.addEventListener('click', st);
-// // stop.addEventListener('click', sp);
-// // 'use strict';
-// // let secc = document.querySelector('.seconds');
-// // let minn = document.querySelector('.minutes');
-// // let hourss = document.querySelector('.hours');
-// // let dayess = document.querySelector('.days');
-// // let deadline = new Date(2019, 5, 1);
-// // let today = Date.now();
-// // let result = deadline - today;
-// // let secs = Number.parseInt(result/1000) %60;
-// // let mins = Number.parseInt(result/1000/ 60) %60;
-// // let hours = Number.parseInt(result/1000/ 60/ 60) %60;
-// // let days = Number.parseInt(result/1000/ 60/ 60/ 24) % 356;
+// stop.addEventListener('click', sp);
+'use strict';
+let secc = document.querySelector('.seconds');
+let minn = document.querySelector('.minutes');
+let hourss = document.querySelector('.hours');
+let dayess = document.querySelector('.days');
+let deadline = new Date(2019, 5, 1);
+let today = Date.now();
+let result = deadline - today;
+let secs = Number.parseInt(result/1000) %60;
+let mins = Number.parseInt(result/1000/ 60) %60;
+let hours = Number.parseInt(result/1000/ 60/ 60) %60;
+let days = Number.parseInt(result/1000/ 60/ 60/ 24) % 356;
 
-// // const timer = () =>{
-// // let today = Date.now();
-// // let result = deadline - today;
-// // let secs = Number.parseInt(result/1000) %60;
-// // let mins = Number.parseInt(result/1000/ 60) %60;
-// // let hours = Number.parseInt(result/1000/ 60/ 60) %24;
-// // let days = Number.parseInt(result/1000/ 60/ 60/ 24) % 356;
-// // secc.textContent = secs;
-// // minn.textContent = mins;
-// // hourss.textContent = hours;
-// // dayess.textContent = days;
-// // }
-// // setInterval(timer, 1000);
-// //   let tim = null;
-// //   let i = -1;
-// //   const colors = [
-// //     "red",
-// //     "orange",
-// //     "yellow",
-// //     "green",
-// //     "blue",
-// //     "purple"
-// //   ];
-// //   const header = document.querySelector('header');
-// //     tim = setInterval(() => {
-// //         i++;
-// //         header.style.backgroundColor = colors[i % colors.length];
-// //     }
-// //     // Math.round(Math.random() * (colors.length - 1))
-// //     ,70)
+const timer = () =>{
+let today = Date.now();
+let result = deadline - today;
+let secs = Number.parseInt(result/1000) %60;
+let mins = Number.parseInt(result/1000/ 60) %60;
+let hours = Number.parseInt(result/1000/ 60/ 60) %24;
+let days = Number.parseInt(result/1000/ 60/ 60/ 24) % 356;
+secc.textContent = secs;
+minn.textContent = mins;
+hourss.textContent = hours;
+dayess.textContent = days;
+}
+setInterval(timer, 1000);
+  let tim = null;
+  let i = -1;
+  const colors = [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple"
+  ];
+  const header = document.querySelector('header');
+    tim = setInterval(() => {
+        i++;
+        header.style.backgroundColor = colors[i % colors.length];
+    }
+    // Math.round(Math.random() * (colors.length - 1))
+    ,100)
 
 // const generateUI = arr => {
 //   console.log(arr);
