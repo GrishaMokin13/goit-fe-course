@@ -1,0 +1,26 @@
+.photo{
+    width: 33%;
+    height: auto;
+    background-color: pink;
+    border: white 4px solid;
+}
+.photo:hover{
+    width: 50%;
+    transition: ease-in-out;
+}
+body{
+    background-color: #ffe8ee;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
